@@ -5,7 +5,7 @@ app = FastAPI()
 
 @app.get("/api") 
 async def root():
-    return {"message": " você está indo muito bem com a FastAPI..."}
+    return {"message": " você está indo muito bem com a FastAPI PARABÉNS..."}
 
 @app.get("/api/{name}")
 async def get_user(name):
